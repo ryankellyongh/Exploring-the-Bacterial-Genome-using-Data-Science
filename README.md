@@ -8,9 +8,9 @@ The dataset contains:
 - **k-mer counts** (common genomic bioinformatics format)
 - Labels for **Resistant (R)** or **Susceptible (S)** isolates
 
-After evaluation, the **Random Forest** model was chosen due to:
-- Strong **recall** (important for minimizing false negatives in resistance detection)
-- **Interpretability** via feature importance
+After evaluation, the **Logistic Regressiont** model was chosen due to:
+- Higher balanced accuracy and recall (critical for minimizing false negatives in resistance detection)  
+- Simplicity and interpretability  
 
 ---
 
