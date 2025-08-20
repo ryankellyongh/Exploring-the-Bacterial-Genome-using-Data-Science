@@ -45,7 +45,7 @@ After evaluation, the **Random Forest** model was chosen due to:
 
 4. **Model Selection**
    - Compared tuned Logistic Regression vs. tuned Random Forest
-   - Selected Random Forest for final model
+   - Selected Logistic Regression for final model
 
 ---
 
