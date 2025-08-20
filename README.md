@@ -50,7 +50,7 @@ After evaluation, the **Random Forest** model was chosen due to:
 ---
 
 ## 📊 Key Results
-- **Random Forest** achieved higher balanced accuracy and recall than Logistic Regression.
+- **Logistic Regression** achieved higher balanced accuracy and recall than Random Forest.
 - Feature importance revealed specific genes strongly associated with cefepime resistance.
 - Nested CV ensured no data leakage and reliable performance estimates.
 
