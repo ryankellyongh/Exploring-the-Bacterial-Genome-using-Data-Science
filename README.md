@@ -74,5 +74,3 @@ In this project, I gained hands-on experience working with genomic feature engin
 Install required packages:
 ```bash
 pip install numpy pandas matplotlib scikit-learn scipy
-
---
