@@ -1,6 +1,14 @@
 # Predicting Cefepime Resistance in *E. coli* Using Genomic Data
 
-## 📌 Project Overview
+
+## Introduction
+
+Antimicrobial resistance (AMR) is one of the most serious public health threats worldwide.
+Cefepime—a fourth-generation cephalosporin—is widely used to treat Escherichia coli infections. However, rising resistance reduces treatment options and increases healthcare costs.
+This project applies machine learning to genomic data to predict E. coli resistance to cefepime.
+By modeling resistance patterns, this analysis contributes to early detection strategies and helps inform antibiotic stewardship programs.
+
+## Project Overview
 This project trains and evaluates two machine learning models — **Logistic Regression** and **Random Forest** — to predict *Escherichia coli* resistance to **cefepime**, a fourth-generation cephalosporin antibiotic.
 
 The dataset contains:
@@ -14,7 +22,7 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 
 ---
 
-## 📂 Data Description
+## Data Description
 
 | File | Description |
 |------|-------------|
@@ -26,7 +34,7 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 
 ---
 
-## 🛠 Methods
+## Methods
 
 1. **Data Loading & Preprocessing**
    - Load genomic features (presence/absence & k-mers)
@@ -49,15 +57,22 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 
 ---
 
-## 📊 Key Results
+## Key Results
 - **Logistic Regression** achieved higher balanced accuracy and recall than Random Forest.
 - Feature importance revealed specific genes strongly associated with cefepime resistance.
 - Nested CV ensured no data leakage and reliable performance estimates.
 
 ---
 
-## 📦 Dependencies
+## Learnings & Takeaways
+In this project, I gained hands-on experience working with genomic feature engineering and bioinformatics data structures, developing a stronger understanding of how genetic information can be translated into machine learning features. I learned how to balance model interpretability with predictive performance, particularly when comparing Logistic Regression and Random Forest approaches. Applying nested cross-validation taught me how to ensure reliable model selection and avoid data leakage, especially when working with imbalanced biological datasets. This project also deepened my understanding of antimicrobial resistance mechanisms and the role of antibiotic susceptibility testing (AST) data in research and clinical decision-making. Overall, it improved my proficiency in Python, pandas, and scikit-learn within an applied research context, strengthening both my technical and analytical skills.
+
+---
+
+## Dependencies
 
 Install required packages:
 ```bash
 pip install numpy pandas matplotlib scikit-learn scipy
+
+--
