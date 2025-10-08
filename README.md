@@ -4,7 +4,7 @@
 ## Introduction
 
 Antimicrobial resistance (AMR) is one of the most serious public health threats worldwide.
-Cefepime—a fourth-generation cephalosporin—is widely used to treat Escherichia coli infections. However, rising resistance reduces treatment options and increases healthcare costs.
+Cefepime is a fourth-generation cephalosporin is widely used to treat Escherichia coli infections. However, rising resistance reduces treatment options and increases healthcare costs.
 This project applies machine learning to genomic data to predict E. coli resistance to cefepime.
 By modeling resistance patterns, this analysis contributes to early detection strategies and helps inform antibiotic stewardship programs.
 
