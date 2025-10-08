@@ -56,8 +56,14 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
    - Selected Logistic Regression for final model
 
 ---
+## Results
 
-## Key Results
+| Model                       | Balanced Accuracy | Recall (Resistant) |
+| --------------------------- | ----------------- | ------------------ |
+| Random Forest (tuned)       | 0.817             | 0.733              |
+| Logistic Regression (tuned) | **0.871**         | **0.867**          |
+
+
 - **Logistic Regression** achieved higher balanced accuracy and recall than Random Forest.
 - Feature importance revealed specific genes strongly associated with cefepime resistance.
 - Nested CV ensured no data leakage and reliable performance estimates.
