@@ -68,6 +68,18 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 - Feature importance revealed specific genes strongly associated with cefepime resistance.
 - Nested CV ensured no data leakage and reliable performance estimates.
 
+
+
+
+
+### Cross-Validation Results Visualization
+![Cross-Validation Balanced Accuracy](images/cv_balanced_accuracy.png)
+*Figure: Logistic Regression outperformed Random Forest in balanced accuracy and recall under nested CV.*
+
+
+
+
+
 ---
 
 ## Learnings & Takeaways
