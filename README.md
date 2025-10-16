@@ -73,9 +73,11 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 These plots compare how each tuned model classified resistant (R) vs susceptible (S) isolates.
 
 **Logistic Regression**
+
 ![Logistic Regression Confusion Matrix](images/logreg_confusion.png)
 
 **Random Forest**
+
 ![Random Forest Confusion Matrix](images/rf_confusion.png)
 
 
