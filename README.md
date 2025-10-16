@@ -16,7 +16,7 @@ The dataset contains:
 - **k-mer counts** (common genomic bioinformatics format)
 - Labels for **Resistant (R)** or **Susceptible (S)** isolates
 
-After evaluation, the **Logistic Regressiont** model was chosen due to:
+After evaluation, the **Logistic Regression** model was chosen due to:
 - Higher balanced accuracy and recall (critical for minimizing false negatives in resistance detection)  
 - Simplicity and interpretability  
 
@@ -98,4 +98,4 @@ In this project, I gained hands-on experience working with genomic feature engin
 
 Install required packages:
 ```bash
-pip install numpy pandas matplotlib scikit-learn scipy
+pip install numpy pandas matplotlib scikit-learn scipy 
