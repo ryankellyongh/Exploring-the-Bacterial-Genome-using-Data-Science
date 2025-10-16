@@ -69,6 +69,16 @@ After evaluation, the **Logistic Regressiont** model was chosen due to:
 - Nested CV ensured no data leakage and reliable performance estimates.
 
 
+### Confusion Matrices (Validation)
+These plots compare how each tuned model classified resistant (R) vs susceptible (S) isolates.
+
+**Logistic Regression**
+![Logistic Regression Confusion Matrix](images/logreg_confusion.png)
+
+**Random Forest**
+![Random Forest Confusion Matrix](images/rf_confusion.png)
+
+
 ### Cross-Validation Results Visualization
 ![Cross-Validation Balanced Accuracy](images/cv_balanced_accuracy.png)
 *Figure: Logistic Regression outperformed Random Forest in balanced accuracy and recall under nested CV.*
