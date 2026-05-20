@@ -24,16 +24,16 @@ Selected for its strong recall on resistant isolates and interpretable feature c
 ```
 train_test_data/
 
-├── 📄 train_pa_genes.csv          # Training gene presence/absence matrix
-├── 📄 test_pa_genes.csv           # Test gene presence/absence matrix
-├── 📄 train_genes.csv             # Training gene alignment metadata
-├── 📄 test_genes.csv              # Test gene alignment metadata
-├── 🔢 train_kmers.npy             # Training k-mer feature arrays
-├── 🔢 test_kmers.npy              # Test k-mer feature arrays
-├── 🔢 train_ids.npy               # Training genome IDs
-├── 🔢 test_ids.npy                # Test genome IDs
-├── 🔢 y_train.npy                 # Resistance labels (R / S)
-└── 🔢 kmer_data_column_genes.npy
+├── train_pa_genes.csv          #Training gene presence/absence matrix
+├── test_pa_genes.csv           #Test gene presence/absence matrix
+├── train_genes.csv             #Training gene alignment metadata
+├── test_genes.csv              #Test gene alignment metadata
+├── train_kmers.npy             #Training k-mer feature arrays
+├── test_kmers.npy              #Test k-mer feature arrays
+├── train_ids.npy               #Training genome IDs
+├── test_ids.npy                #Test genome IDs
+├── y_train.npy                 #Resistance labels (R / S)
+└── kmer_data_column_genes.npy
 ```
 
 ---
