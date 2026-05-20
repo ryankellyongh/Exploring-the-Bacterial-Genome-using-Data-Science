@@ -78,7 +78,7 @@ Logistic Regression outperformed Random Forest on the metrics that matter most f
 
 ---
 
-## 🔍 Model Comparisons
+## Model Comparisons
 
 | Logistic Regression | Random Forest |
 |---|---|
