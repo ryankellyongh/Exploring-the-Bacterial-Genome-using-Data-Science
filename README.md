@@ -106,3 +106,7 @@ load_data(data_dir='/path/to/your/train_test_data')
 ## Author
 
 **Ryan Kelly**
+
+Built as part of the **[Build Fellowship](https://www.buildfellowship.com)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ryankellyongh-black?logo=github)](https://github.com/ryankellyongh)
