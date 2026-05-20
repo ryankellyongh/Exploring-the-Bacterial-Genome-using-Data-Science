@@ -74,7 +74,16 @@ Logistic Regression outperformed Random Forest on the metrics that matter most f
 - **Strong balanced accuracy** across cross-validation folds
 - **Interpretable** top predictive genes via logistic coefficients
 
+![Cross-Validation Balanced Accuracy](cv_balanced_accuracy_sem.png)
+
 ---
+
+## 🔍 Model Comparisons
+
+| Logistic Regression | Random Forest |
+|---|---|
+| ![](confusion_matrix_logreg.png) | ![](confusion_matrix_rf.png) |
+
 
 ## Requirements
 
