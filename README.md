@@ -19,50 +19,41 @@ Selected for its strong recall on resistant isolates and interpretable feature c
 
 ---
 
-## 📁 Data Files
+## Data Files
 
 ```
 train_test_data/
 
 ├── 📄 train_pa_genes.csv          # Training gene presence/absence matrix
-
 ├── 📄 test_pa_genes.csv           # Test gene presence/absence matrix
-
 ├── 📄 train_genes.csv             # Training gene alignment metadata
-
 ├── 📄 test_genes.csv              # Test gene alignment metadata
-
 ├── 🔢 train_kmers.npy             # Training k-mer feature arrays
-
 ├── 🔢 test_kmers.npy              # Test k-mer feature arrays
-
 ├── 🔢 train_ids.npy               # Training genome IDs
-
 ├── 🔢 test_ids.npy                # Test genome IDs
-
 ├── 🔢 y_train.npy                 # Resistance labels (R / S)
-
 └── 🔢 kmer_data_column_genes.npy
 ```
 
 ---
 
-## ⚙️ Methods
+## Methods
 
-### 📊 Features & Labels
+### Features & Labels
 | Type | Description |
 |------|-------------|
 | Gene matrix | Presence/absence of genes across genomes |
 | K-mer counts | Fixed-length sequence fragment frequencies |
 | Labels | Resistant (R) or Susceptible (S) to cefepime |
 
-### 🤖 Models
+### Models
 | Model | Tuning Strategy |
 |-------|----------------|
 | Logistic Regression | `liblinear` solver · GridSearch over C ∈ {0.01–100} · L1/L2 penalty |
 | Random Forest | GridSearch over n_estimators, max_depth, min_samples |
 
-### 🔁 Evaluation Pipeline
+### Evaluation Pipeline
 ```
 Nested Cross-Validation
 ├── Outer CV  →  5-fold StratifiedKFold  (generalization estimate)
