@@ -70,8 +70,8 @@ Final comparison : 20% stratified holdout split
 
 Logistic Regression outperformed Random Forest on the metrics that matter most for AMR prediction:
 
--  **Higher recall** on resistant isolates — minimizing missed cases
-- **Strong balanced accuracy** across cross-validation folds
+- **Higher recall on resistant isolates** — correctly identified 87% of resistant cases vs 73% for Random Forest
+- **Fewer missed resistant cases** — only 4 false negatives vs 8 for Random Forest
 - **Interpretable** top predictive genes via logistic coefficients
 
 ![Cross-Validation Balanced Accuracy](images/cv_balanced_accuracy_sem.png)
